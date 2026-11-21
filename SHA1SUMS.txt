@@ -1,15 +1,15 @@
-Robin Lloyd no Bouken (PlayStation) - English translation v1.0 - SHA-1 checksums
+Robin Lloyd no Bouken (PlayStation) - English translation v1.0.1 - SHA-1 checksums
 
 The release download
-f95fd43970fab7a1d3f48fd000d32972712cbd26  RobinLloyd-EN-v1.0.zip
+9b94d67813cf8a7f38eea0720cad255b57e5abdf  RobinLloyd-EN-v1.0.1.zip
 
 Files inside the zip
-7b76129994d78ecbf6148d1ced20a77efa49b434  RobinLloyd-EN-v1.0-Track01.xdelta
+d4d50a23f349421381223b67f8536039746f8c8c  RobinLloyd-EN-v1.0.1-Track01.xdelta
 59653940ba18cc8b415f961ee5b67bde5c254d8d  Robin Lloyd EN.cue
 
 Your disc image, Track 1 (the data track), 206,710,224 bytes
 4c68776b4a98b9af4c62a691102009827207ce16  before patching: Robin Lloyd no Bouken (Japan)
-67da7f255b77549fccec95bcc6309f509bab2105  after patching with RobinLloyd-EN-v1.0-Track01.xdelta
+fdfbae69b8e9736b719aac886091a7b8d254effc  after patching with RobinLloyd-EN-v1.0.1-Track01.xdelta
 
 Track 2 (CD audio), 36,705,312 bytes, not changed
 d413c41f7d80e1eb06787d6458e7a493838ac6e3  Robin Lloyd no Bouken (Japan) (Track 2).bin

@@ -1,4 +1,4 @@
-# Installing the Robin Lloyd English translation (v1.0)
+# Installing the Robin Lloyd English translation (v1.0.1)
 
 The download contains only the changes to the game's data track, not the game.
 You need your own disc image of **Robin Lloyd no Bouken (Japan)**.
@@ -23,7 +23,7 @@ You need your own disc image of **Robin Lloyd no Bouken (Japan)**.
 
 | File | What it is |
 |---|---|
-| `RobinLloyd-EN-v1.0-Track01.xdelta` | The patch for Track 1, the game data |
+| `RobinLloyd-EN-v1.0.1-Track01.xdelta` | The patch for Track 1, the game data |
 | `Robin Lloyd EN.cue` | Optional cue sheet, only for the side-by-side alternative below. Most people do not need it |
 | `README.txt` | The release notes |
 
@@ -35,7 +35,7 @@ That is all.
 ### With Delta Patcher
 
 1. **Original file** = your `Robin Lloyd no Bouken (Japan) (Track 1).bin`
-2. **XDelta patch** = `RobinLloyd-EN-v1.0-Track01.xdelta`
+2. **XDelta patch** = `RobinLloyd-EN-v1.0.1-Track01.xdelta`
 3. Tick **Backup original file** in the settings, then **Apply patch**.
 
 ### With the command line
@@ -44,7 +44,7 @@ xdelta3 writes a new file, so rename the original first:
 
 ```
 ren "Robin Lloyd no Bouken (Japan) (Track 1).bin" "Track 1 original.bin"
-xdelta3 -d -s "Track 1 original.bin" RobinLloyd-EN-v1.0-Track01.xdelta "Robin Lloyd no Bouken (Japan) (Track 1).bin"
+xdelta3 -d -s "Track 1 original.bin" RobinLloyd-EN-v1.0.1-Track01.xdelta "Robin Lloyd no Bouken (Japan) (Track 1).bin"
 ```
 
 ### Check the result
@@ -53,7 +53,7 @@ The patched file has this SHA-1 checksum:
 
 | File | SHA-1 after patching |
 |---|---|
-| Track 1 | `67da7f255b77549fccec95bcc6309f509bab2105` |
+| Track 1 | `fdfbae69b8e9736b719aac886091a7b8d254effc` |
 
 ## Alternative: keep the Japanese and English discs side by side
 
@@ -61,6 +61,11 @@ Leave your files alone, save the patched Track 1 as `Robin Lloyd EN (Track 1).bi
 in the same folder, and open `Robin Lloyd EN.cue` from the zip. That cue lists the
 patched Track 1 and your original Track 2. If your files are named differently, edit
 the names in it.
+
+## Updating from v1.0
+
+Patch your original Japanese Track 1 again with the v1.0.1 `.xdelta` (the patch does not
+apply to a Track 1 that was already patched). In-game saves from v1.0 keep working.
 
 ## After patching
 

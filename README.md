@@ -1,10 +1,10 @@
-# The Adventures of Robin Lloyd (PlayStation) English translation v1.0
+# The Adventures of Robin Lloyd (PlayStation) English translation v1.0.1
 
 An unofficial fan translation patch for **Robin Lloyd no Bouken** (ロビン・ロイドの冒険).
 It contains only the changes to the game's data track, not the game: you need your own
 disc image of **Robin Lloyd no Bouken (Japan)**, the Redump version.
 
-**[Download the patch (v1.0)](https://github.com/suddenlythis/robinlloyd-psx-english/releases/tag/v1.0)**
+**[Download the patch (v1.0.1)](https://github.com/suddenlythis/robinlloyd-psx-english/releases/tag/v1.0.1)**
  · [How to install](INSTALL.md) · [Checksums](SHA1SUMS.txt)
 
 <p align="center">
@@ -13,7 +13,7 @@ disc image of **Robin Lloyd no Bouken (Japan)**, the Redump version.
 
 ## Progress
 
-Version 1.0: everything in the game is translated.
+Version 1.0.1: everything in the game is translated.
 
 | Area | Status | Details |
 |---|---|---|
@@ -161,6 +161,7 @@ Pictures
 
 | Version | Date | Notes |
 |---|---|---|
+| v1.0.1 | 2026-11-21 | Fixes a possible freeze in dialogue while speaking to a character in a cell |
 | v1.0 | 2026-11-20 | First release. Full script, menus, item names, pictures with text, action stages, English title logo |
 
 ---
